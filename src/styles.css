@@ -1,0 +1,31 @@
+/* Estilo Global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Estilo de cabeçalho e navegação */
+header {
+    background-color: #28a745;
+}
+
+/* Estilo do carrossel */
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Estilo de rodapé */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linha Verde - Turismo e Viagens</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Linha Verde</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Início</a></li>
+                        <li class="nav-item"><a class="nav-link" href="destinos.html">Destinos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="historia.html">História</a></li>
+                        <li class="nav-item"><a class="nav-link" href="dicas.html">Dicas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-4">
+        <h1>Bem-vindo à Linha Verde</h1>
+        <p>Aqui você encontra as melhores informações sobre os destinos incríveis e belezas naturais da Linha Verde, na Bahia.</p>
+
+        <section>
+            <h2>Destaques</h2>
+            <div id="carouselDestinos" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselDestinos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselDestinos" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselDestinos" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./src/Praia_Forte_Igreja_Cruzeiro.jpg" class="d-block w-100" alt="Praia do Forte">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Praia do Forte</h5>
+                            <p>Explore os recifes e a rica biodiversidade desta praia encantadora.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./src/imabassai2.jpg" class="d-block w-100" alt="Imbassaí">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Imbassaí</h5>
+                            <p>Onde o rio encontra o mar, criando um cenário único.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./src/mangue-seco.jpg" class="d-block w-100" alt="Mangue Seco">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Mangue Seco</h5>
+                            <p>Explore as dunas e curta passeios de buggy inesquecíveis.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselDestinos" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselDestinos" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center p-4">
+        <p>&copy; 2024 Linha Verde. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
